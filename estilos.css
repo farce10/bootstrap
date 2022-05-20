@@ -1,0 +1,29 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.collapse navbar-collapse{
+	display: flex;
+	position: right;
+	justify-content: center;
+}
+.navbar-brand{
+	font-size: 300;
+}
+.carousel-inner{
+	max-height: 30rem;
+}
+@media (max-witdth: 768px) {
+	#intro {
+		width: 90% !important;
+	}
+}
+navbar{
+	height: 30px;
+}
+.estrenos img{
+	max-height: 10rem;
+	max-width: 20px;
+
+}
